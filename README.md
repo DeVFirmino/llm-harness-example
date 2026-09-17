@@ -23,6 +23,7 @@ GitHub does not load the files into the model. The tool that opens the folder do
 | [`AGENTS.md`](AGENTS.md) | Which folder to read for which task. |
 | [`study/AGENTS.md`](study/AGENTS.md) | How to start and stop a study session. |
 | [`study/progress.md`](study/progress.md) | Checkpoint for a SQL joins course, mid-course. |
+| [`study/exercise-4.md`](study/exercise-4.md) | The exercise the checkpoint points at. |
 | [`notes-app/AGENTS.md`](notes-app/AGENTS.md) | Treat project facts as canonical. |
 | [`notes-app/facts.md`](notes-app/facts.md) | Constraints for a single-user offline notes app. |
 
@@ -40,10 +41,10 @@ Open the folder with an assistant that reads repository files.
 For `study/`, start with:
 
 ```text
-Read the harness and continue from the checkpoint.
+Read study/AGENTS.md and study/progress.md, then continue from Next.
 ```
 
-Work the exercise. Before you close the chat:
+Open `study/exercise-4.md` and work through the query with the assistant. Before you close the chat:
 
 ```text
 Update the checkpoint with what we verified, the open question, and the next task. Show me the diff.
